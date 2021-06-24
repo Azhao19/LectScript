@@ -4,7 +4,6 @@ import json
 import datetime
 
 ### takes in srt file name and returns a raw array of the data 
-### THIS FUNCTION IS NOT GUARENTEED TO WORK LOL
 
 def load_data_srt(file_name):
     #file_path = os.path.join('..', "subtitles", "srt", file_name)
