@@ -155,5 +155,4 @@ if __name__ == "__main__":
     parser.add_argument("-t", "--time-space", help="Min time (s) between important moments (default 600)", default=600, type=int)
 
     args = parser.parse_args()
-    #print(args)
     main(args)
